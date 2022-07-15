@@ -1,0 +1,66 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/nav.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="semantic.html">Semantic</a></li>
+                <li><a href="">About Us</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to my Form</h1>
+    </header>
+    <h1>HTML Form</h1>
+    <form action="">
+        <p>Name: <input type="text" name="name" placeholder="Enter Your Name"></p>
+        <p>Email: <input type="text" name="email" placeholder="Enter Your Email"></p>
+        <fieldset>
+            <legend>Select an option</legend>
+            <p>
+                <label for="car">
+                    <input type="radio" name="instruments" id="car">Car
+                </label>
+            </p>
+            <p>
+                <label for="watch">
+                    <input type="radio" name="instruments" id="watch">Watch
+                </label>
+            </p>
+            <p>
+                <label for="android phone">
+                    <input type="radio" name="instruments" id="android phone">Android Phone
+                </label>
+            </p>
+            <p>
+                <label for="laptop">
+                    <input type="radio" name="instruments" id="laptop">Laptop
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Select your profession</legend>
+            <p><label for="student"><input type="checkbox" name="profession" id="student">Student</label></p>
+            <p><label for="job holder"><input type="checkbox" name="profession" id="job holder">Job Holder</label></p>
+            <p><label for="businessman"><input type="checkbox" name="profession" id="businessman">Businessman</label>
+            </p>
+        </fieldset>
+        <p>Special Requirements
+            <br>
+            <textarea name="text" id="" cols="30" rows="10"></textarea>
+        </p>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
